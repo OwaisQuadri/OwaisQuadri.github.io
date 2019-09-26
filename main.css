@@ -133,13 +133,11 @@ a:active{
     opacity:1;
     padding-bottom: 15px;
     padding-left: 10px;
-    z-index: 99991;
 }
 .paragraph{
     font-size:16px;
     font-family: sans-serif;
     padding-left: 10px;
-    z-index: 99991;
     
 }
 #left-column{
