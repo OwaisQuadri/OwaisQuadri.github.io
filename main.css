@@ -127,17 +127,20 @@ a:active{
     min-height:600px;
     z-index: 99990;
 }
-.subtitle,.subtitle-right{
+.subtitle,.subtitle-right,.subtitle-left{
     font-weight: bold;
-    font-size:20px;
+    font-size:16px;
     opacity:1;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-left: 10px;
+    z-index: 99991;
 }
 .paragraph{
+    text-indent: 40px;
     font-size:16px;
     font-family: sans-serif;
-    padding-left: 10px;
+    padding-left:10px;
+    z-index: 99991;
     
 }
 #left-column{
