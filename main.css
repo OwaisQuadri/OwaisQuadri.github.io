@@ -79,15 +79,55 @@ a:active{
 .navigation{
     width:25%;
 }
+.pics{
+    margin-top:100px;
+    width: 80%;
+    margin-left:18%;
+  
+}
+#image1,#image2,#image3{
+    border-style: solid;
+    border-width:3px;
+    width: 200px;
+    height:200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    float:left;
+}
+#image1{
+    border-color:#33ccff;
+    
+    margin: 0px 20px 40px 0px;
+}
+#image2{
+    border-color:#cc0033;
+    
+    margin: 0px 0px 40px 20px;
+}
+#image3{
+    border-color:#ff9900;
+    
+    margin:0px 20px 40px 20px;
+}
+.center{
+    
+}
+
+
+
+
+
+
+
 
 
 footer{
     position:absolute;
-    bottom:0px;
-    width:100%;
+    bottom:-10px;
     background-color:white;
     opacity:0.8;
     margin-left: -8px;
+    margin-right: -8px;
     font-color:inherit;
     padding:10px 0px 10px 0px;
 
