@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 body{
     font-family:Georgia, serif;
-    background-image:url("pics/image1.png") ;
+    background-image:url("images/image1.png") ;
     background-position:top;
     background-repeat: no-repeat;
     background-size:cover;
@@ -19,11 +19,11 @@ body{
 
 }
 #tourism{
-    background-image:url("pics/image2.png") ; 
+    background-image:url("images/image2.png") ; 
     color:#cc0033;
 }
 #history{
-    background-image:url("pics/image3.png") ; 
+    background-image:url("images/image3.png") ; 
     color:#ff9900;
 }
 h1{
