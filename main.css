@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2019, 3:11:59 PM
+    Author     : 100697281
+*/
+body{
+    font-family:Georgia, serif;
+    background-image:url("pics/image1.png") ;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    text-align: center;
+    color:#33ccff;
+
+}
+#tourism{
+    background-image:url("pics/image2.png") ; 
+    color:#cc0033;
+}
+#history{
+    background-image:url("pics/image3.png") ; 
+    color:#ff9900;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    padding-right:60px;
+}
+a:visited {
+    color: #33ccff;
+}
+a:unvisited{
+    color:#33ccff;
+}
+a:active{
+    font-style: bold;
+}
+
+.header{
+
+    float:left;
+    background-color:white;
+    opacity: 0.75;
+    position:fixed;
+
+    text-align: center ;
+
+    width:100%;
+    top: -8px;
+    left:-8px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#home_header{
+    color:#33ccff;
+}
+#history_header{
+    color:#ff9900;
+}
+#tourism_header{
+    color:#cc0033;
+}
+.title,.navigation{
+    float:right;
+}
+.title{
+    width:50%;
+    text-align: center ;
+}
+.navigation{
+    width:25%;
+}
+
+
+footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    background-color:white;
+    opacity:0.8;
+    margin-left: -8px;
+    font-color:inherit;
+    padding:10px 0px 10px 0px;
+
+}
+#footer{
+
+
+
+}
