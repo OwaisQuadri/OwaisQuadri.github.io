@@ -19,7 +19,9 @@ body{
 
 }
 #tourism{
-    background-image:url("images/image2.png") ; 
+    background-image:url("images/image2.png");
+    background-size: 100%;
+    background-attachment: fixed;
     color:#cc0033;
 }
 #history{
@@ -33,7 +35,7 @@ h1{
 p{
     font-size: 15px;
     padding-right:60px;
-    
+
 }
 a:visited {
     color: #33ccff;
@@ -49,11 +51,10 @@ a:active{
 
     float:left;
     background-color:white;
-    opacity: 0.95;
+    background: rgba(255,255,255, 0.95);
     position:fixed;
 
     text-align: center ;
-
     width:100%;
     top: -8px;
     left:-8px;
@@ -86,7 +87,7 @@ a:active{
     margin-top:100px;
     width: 48%;
     margin-left:26%;
-  
+
 }
 #image1,#image2,#image3{
     border-style: solid;
@@ -99,27 +100,26 @@ a:active{
 }
 #image1{
     border-color:#33ccff;
-    
+
     margin: 0px 20px 40px 0px;
 }
 #image2{
     border-color:#cc0033;
-    
+
     margin: 0px 0px 40px 20px;
 }
 #image3{
     border-color:#ff9900;
-    
+
     margin:0px 20px 40px 20px;
 }
 
 
 /* content of body start */
 .content{
-    
+
     margin:40px 10% 40px 10%;
-    background-color: white;
-    opacity:0.75;
+    background: rgba(255,255,255, 0.8);
     text-align:left;
     min-width: 80%;
     padding: 20px;
@@ -140,23 +140,45 @@ a:active{
     font-size:16px;
     font-family: sans-serif;
     padding-left:10px;
+    padding-right:20px;
+    text-align: justify;
     z-index: 99991;
-    
+
 }
-#left-column{
+.left-column{
     float:inherit;
     width:51%;
     margin-right:9%;
 }
-right-column{
+.right-column{
     float:inherit;
     width:40%;
 }
-subtitle-right{
+.subtitle-right{
     font-size:18px;
 }
 /* */
-
+#burjk{
+    width:120%;
+}
+#dframe{
+    width:100%;
+}
+.oneofthree,.twoofthree,.threeofthree{
+    margin-top:40px;
+    float:left;
+    width:31%;
+    text-align: justify;
+}
+.oneofthree, .twoofthree{
+    padding:20px 15px 20px 15px;
+}
+.twoofthree{
+    margin-top:10px;
+}
+.threeofthree{
+    padding-top:20px;
+}
 
 
 
@@ -175,10 +197,5 @@ footer{
     margin-left:-8px;
     color:inherit;
     padding:10px 8px 10px 8px;
-
-}
-#footer{
-
-
 
 }
