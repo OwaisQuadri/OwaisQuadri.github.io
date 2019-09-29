@@ -8,20 +8,21 @@ and open the template in the editor.
     Author     : 100697281
 */
 body{
+    
     font-family:Georgia, serif;
     background-image:url("images/image1.png") ;
     background-position:top;
     background-repeat: no-repeat;
     background-size:cover;
-
+    background-attachment: fixed;
     text-align: center;
     color:#33ccff;
 
 }
+
 #tourism{
     background-image:url("images/image2.png");
     background-size: 100%;
-    background-attachment: fixed;
     color:#cc0033;
 }
 #history{
@@ -34,8 +35,11 @@ h1{
 }
 p{
     font-size: 15px;
-    padding-right:60px;
+    line-height: 2 ;
 
+}
+a{
+    text-decoration: none;
 }
 a:visited {
     color: #33ccff;
@@ -122,10 +126,11 @@ a:active{
     background: rgba(255,255,255, 0.8);
     text-align:left;
     min-width: 80%;
-    padding: 20px;
+    padding: 40px;
     float:left;
-    min-height:600px;
+    height:fit-content;
     z-index: 99990;
+    padding-bottom:40px
 }
 .subtitle,.subtitle-right,.subtitle-left{
     font-weight: bold;
@@ -139,7 +144,7 @@ a:active{
     text-indent: 40px;
     font-size:16px;
     font-family: sans-serif;
-    padding-left:10px;
+    padding-left:20px;
     padding-right:20px;
     text-align: justify;
     z-index: 99991;
@@ -147,12 +152,11 @@ a:active{
 }
 .left-column{
     float:inherit;
-    width:51%;
-    margin-right:9%;
+    width:55%;
 }
 .right-column{
     float:inherit;
-    width:40%;
+    width:45%;
 }
 .subtitle-right{
     font-size:18px;
@@ -179,21 +183,16 @@ a:active{
 .threeofthree{
     padding-top:20px;
 }
-
-
-
-
-
-
-
+#center_subtitle{
+    text-align: center;
+}
 footer{
     float:left;
     text-align:center;
     width:100%;
     margin-bottom: 0px;
     bottom:-10px;
-    background-color:white;
-    opacity:0.8;
+    background-color:rgba(255,255,255,0.8);
     margin-left:-8px;
     color:inherit;
     padding:10px 8px 10px 8px;
